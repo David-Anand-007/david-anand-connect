@@ -47,7 +47,7 @@ const Philosophy = () => {
             {/* Philosophy Cards */}
             <div className="grid sm:grid-cols-2 gap-6 animate-slide-in">
               {beliefs.map((belief, index) => (
-                <Card key={index} className="group hover:shadow-card transition-all duration-300 hover:scale-105 bg-card/50 backdrop-blur-sm">
+                <Card key={index} className="group hover:shadow-card transition-all duration-300 hover:scale-105 bg-card border-border shadow-sm">
                   <CardContent className="p-6 text-center">
                     <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
                       {belief.icon}

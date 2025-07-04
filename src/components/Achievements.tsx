@@ -89,7 +89,7 @@ const Achievements = () => {
             {achievements.map((achievement, index) => (
               <Card 
                 key={index}
-                className="group hover:shadow-elegant transition-all duration-500 hover:scale-105 animate-scale-in bg-gradient-to-br from-card to-card/50 backdrop-blur-sm border-primary/10"
+                className="group hover:shadow-elegant transition-all duration-500 hover:scale-105 animate-scale-in bg-card border-border shadow-sm"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <CardContent className="p-6 text-center space-y-4">
