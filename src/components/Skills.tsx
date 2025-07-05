@@ -104,7 +104,7 @@ const Skills = () => {
                       <Badge 
                         key={idx} 
                         variant="secondary" 
-                        className="text-sm bg-primary/10 text-primary border border-primary/20 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                        className="text-sm bg-primary/15 text-primary border border-primary/25 hover:bg-primary hover:text-primary-foreground transition-all duration-300 font-medium"
                       >
                         {skill}
                       </Badge>
@@ -124,7 +124,7 @@ const Skills = () => {
               {education.map((edu, index) => (
                 <Card 
                   key={index} 
-                  className="group hover:shadow-elegant transition-all duration-300 hover:scale-105 bg-primary/5 border-primary/20"
+                  className="group hover:shadow-elegant transition-all duration-300 hover:scale-105 bg-card border-border shadow-sm"
                 >
                   <CardContent className="p-6">
                     <div className="space-y-3">
@@ -134,7 +134,7 @@ const Skills = () => {
                       <p className="font-medium text-foreground">
                         {edu.institution}
                       </p>
-                      <Badge variant="secondary" className="bg-accent-light text-accent-foreground">
+                      <Badge variant="secondary" className="bg-accent/20 text-accent border border-accent/30 font-medium">
                         {edu.focus}
                       </Badge>
                       <p className="text-sm text-muted-foreground leading-relaxed">

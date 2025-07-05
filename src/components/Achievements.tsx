@@ -97,7 +97,7 @@ const Achievements = () => {
                     {achievement.icon}
                   </div>
                   
-                  <Badge variant="outline" className="bg-accent-light text-accent-foreground border-accent/30">
+                  <Badge variant="secondary" className="bg-accent/20 text-accent border border-accent/30 font-medium">
                     {achievement.category}
                   </Badge>
                   
@@ -105,11 +105,11 @@ const Achievements = () => {
                     {achievement.title}
                   </h3>
                   
-                  <div className="text-2xl font-bold text-accent">
+                  <div className="text-2xl font-bold text-accent bg-accent/10 border border-accent/20 rounded-lg px-4 py-2">
                     {achievement.metric}
                   </div>
                   
-                  <p className="text-sm text-muted-foreground leading-relaxed">
+                  <p className="text-sm text-foreground leading-relaxed">
                     {achievement.description}
                   </p>
                 </CardContent>
@@ -127,7 +127,7 @@ const Achievements = () => {
               {testimonials.map((testimonial, index) => (
                 <Card 
                   key={index}
-                  className="group hover:shadow-card transition-all duration-300 hover:scale-105 bg-primary/5 border-primary/20"
+                  className="group hover:shadow-card transition-all duration-300 hover:scale-105 bg-card border-border shadow-sm"
                 >
                   <CardContent className="p-6">
                     <div className="space-y-4">
