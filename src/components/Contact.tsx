@@ -50,7 +50,7 @@ const Contact = () => {
             {contactInfo.map((contact, index) => (
               <Card 
                 key={index}
-                className="group hover:shadow-glow transition-all duration-300 hover:scale-105 animate-scale-in bg-primary-foreground/10 backdrop-blur-sm border-primary-foreground/20"
+                className="group hover:shadow-glow transition-all duration-300 hover:scale-105 animate-scale-in bg-background/95 backdrop-blur-sm border-primary-foreground/30 shadow-card"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <CardContent className="p-6 text-center">
@@ -58,20 +58,20 @@ const Contact = () => {
                     {contact.icon}
                   </div>
                   
-                  <h3 className="text-lg font-semibold text-primary-foreground mb-2">
+                  <h3 className="text-lg font-semibold text-foreground mb-2">
                     {contact.type}
                   </h3>
                   
                   <a 
                     href={contact.href}
-                    className="text-primary-foreground/80 hover:text-accent transition-colors duration-300 font-medium block mb-2"
+                    className="text-primary hover:text-accent transition-colors duration-300 font-medium block mb-2"
                     target={contact.type === "LinkedIn" ? "_blank" : undefined}
                     rel={contact.type === "LinkedIn" ? "noopener noreferrer" : undefined}
                   >
                     {contact.value}
                   </a>
                   
-                  <p className="text-sm text-primary-foreground/70">
+                  <p className="text-sm text-muted-foreground">
                     {contact.description}
                   </p>
                 </CardContent>
@@ -81,12 +81,12 @@ const Contact = () => {
 
           {/* Call to Action */}
           <div className="text-center animate-fade-in">
-            <Card className="bg-primary-foreground/10 backdrop-blur-sm border-primary-foreground/20 inline-block">
+            <Card className="bg-background/95 backdrop-blur-sm border-primary-foreground/30 inline-block shadow-card">
               <CardContent className="p-8">
-                <h3 className="text-xl font-bold text-primary-foreground mb-4">
+                <h3 className="text-xl font-bold text-foreground mb-4">
                   Ready to Start the Conversation?
                 </h3>
-                <p className="text-primary-foreground/80 mb-6 max-w-md">
+                <p className="text-muted-foreground mb-6 max-w-md">
                   Whether you're looking for a technical sales expert, a strategic consultant, 
                   or someone who can bridge the gap between technology and human needs - let's talk.
                 </p>
@@ -104,7 +104,7 @@ const Contact = () => {
                     variant="outline"
                     size="lg"
                     onClick={() => window.open("https://www.linkedin.com/in/david-anand-daniel", "_blank")}
-                    className="text-lg px-8 py-3 bg-primary-foreground/10 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+                    className="text-lg px-8 py-3 border-primary/30 text-primary hover:bg-primary hover:text-primary-foreground"
                   >
                     View LinkedIn
                   </Button>
