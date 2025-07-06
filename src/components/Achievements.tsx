@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 
 const Achievements = () => {
   const achievements = [
@@ -48,23 +49,191 @@ const Achievements = () => {
   ];
 
   const testimonials = [
+    // Clients
     {
-      text: "David's ability to understand client requirements and offer tailored solutions is exceptional. His technical expertise combined with relationship-building skills make him invaluable.",
-      author: "Vinod Prabhu.D",
-      role: "LinkedIn Testimonial",
-      platform: "LinkedIn"
+      text: "Incredibly knowledgeable in the SaaS and enterprise tech space... remarkable ability to translate complex concepts into clear, actionable solutions... consistently helpful, approachable, and proactive.",
+      author: "Courtney Quinn",
+      role: "Head of Operations",
+      platform: "Client",
+      date: "May 24, 2025"
     },
     {
-      text: "Working with David has been fantastic. His understanding of complex technical requirements and ability to build genuine client relationships sets him apart.",
-      author: "Tanya Sutradhar",
-      role: "LinkedIn Testimonial", 
-      platform: "LinkedIn"
+      text: "Outstanding software sales expert... took the time to support and understand our wishes... unique blend of technical knowledge and exceptional interpersonal skills.",
+      author: "Courtney Nicoll",
+      role: "EVP of Operations",
+      platform: "Client",
+      date: "August 6, 2024"
     },
     {
-      text: "Fantastic work on the customer engagement initiatives. Your approach to building relationships has significantly improved our client satisfaction scores.",
-      author: "Chetan Borkar",
-      role: "Team Lead",
-      platform: "Internal Recognition"
+      text: "Really helpful with setting up a POC for my company. He was very instrumental in resolving any issues we had.",
+      author: "Caleb Murray",
+      role: "IT Asset Management Professional",
+      platform: "Client",
+      date: "August 5, 2024"
+    },
+    {
+      text: "Contributions proved invaluable in aligning and enhancing our marketing initiatives... proactive demeanor and commitment to refining our strategies... consistently exceeded expectations.",
+      author: "Akansha Vij",
+      role: "Brand | Marketing | PR & Communications Strategist",
+      platform: "Client",
+      date: "August 31, 2023"
+    },
+    {
+      text: "An excellent resource... extremely professional, reliable and hands on in everything he undertakes.",
+      author: "Jugal Popat",
+      role: "Co-Founder",
+      platform: "Client",
+      date: "March 29, 2023"
+    },
+    {
+      text: "Enthusiasm and knowledge in what he does... amazing at his job! Very helpful and good at handling client relationship.",
+      author: "Tanya S Dhar",
+      role: "Marketing and Communications Manager",
+      platform: "Client",
+      date: "October 11, 2022"
+    },
+    {
+      text: "Instrumental in our success with the product... very talented professional that was patient with our team and went the extra mile.",
+      author: "David Dillard",
+      role: "VP at Batavia Inc.",
+      platform: "Client",
+      date: "November 16, 2021"
+    },
+    {
+      text: "Understand the client requirements and come out with a solution he is just amazing it was great working with you.",
+      author: "Vinod Prabhu D",
+      role: "Hospitality & Strategic Partner",
+      platform: "Client",
+      date: "September 3, 2021"
+    },
+    {
+      text: "Exceptional person... took the time to walk through every relevant feature... made sure no question was left unanswered... tailored for our use case and needs.",
+      author: "Yaseer Khanani",
+      role: "Director of Product & Design",
+      platform: "Client",
+      date: "November 13, 2020"
+    },
+    {
+      text: "Great help with getting Freshdesk and Freshchat setup... very knowledgeable of the system and had lots of patience.",
+      author: "Nathan Neyedly",
+      role: "Product Manager",
+      platform: "Client",
+      date: "November 9, 2020"
+    },
+    {
+      text: "Excellent support technician... nice, polite and a good professional always trying to look for a solution.",
+      author: "Gustavo Perez Sagredo",
+      role: "Workplace Technician",
+      platform: "Client",
+      date: "October 21, 2020"
+    },
+    {
+      text: "Knowledge, professionalism, and willingness to help was hard to ignore... excellent customer service skills.",
+      author: "Jake Thomas",
+      role: "IT Director",
+      platform: "Client",
+      date: "October 16, 2020"
+    },
+    {
+      text: "The most certain way to succeed is always to try just one more time. It seems that David must have been trained by Mr. Edison.",
+      author: "Amit Varma",
+      role: "Problem Solver",
+      platform: "Client",
+      date: "October 3, 2020"
+    },
+    {
+      text: "Very knowledgeable, personable and helpful... guided us through leveraging the Freshworks platform to drive value.",
+      author: "Darryl Sharpton",
+      role: "Founder at Albany Park ®",
+      platform: "Client",
+      date: "April 15, 2020"
+    },
+    {
+      text: "Knowledgeable, humble with communication and a pleasure to work with... good that you receive a great Customer Service from a Customer Service Company.",
+      author: "Kirtan Patel",
+      role: "Product Manager",
+      platform: "Client",
+      date: "April 9, 2020"
+    },
+    // Managers
+    {
+      text: "Bright positive thinking professional, who I can value as a great pre-sales product expert.",
+      author: "Gleb Grozovsky",
+      role: "Sales Lead India",
+      platform: "Manager",
+      date: "August 13, 2024"
+    },
+    {
+      text: "Matured, top-notch soft skills, and committed. He's good at handling situations and also a quick learner.",
+      author: "Dinesh Babu Jayaraman",
+      role: "Associate Director of Enterprise Support",
+      platform: "Manager",
+      date: "July 1, 2021"
+    },
+    {
+      text: "The star of the team... assures closure for them... very talented, soft-spoken, and knows his tech stack very well... awarded many times for pure excellence in winning complicated deals.",
+      author: "Shaiju Thomas",
+      role: "Global Sales Leader",
+      platform: "Manager",
+      date: "May 27, 2021"
+    },
+    {
+      text: "In one word if i were to describe David, it would be 'passion'... thorough & intelligent professional always focused on his work... set the bar really high with his quick grasp on the products.",
+      author: "Madhavan Veeraraghavan",
+      role: "Empowering Teams | Solution Engineering",
+      platform: "Manager",
+      date: "February 5, 2021"
+    },
+    // Colleagues
+    {
+      text: "One of the best Presales to work with, his energy, his proactiveness really wows the customer and will fit in any team he works in.",
+      author: "Satvik Chandel",
+      role: "Associate Director Sales",
+      platform: "Colleague",
+      date: "August 6, 2024"
+    },
+    {
+      text: "Excellent team player and a joy to be around... willingness to help others is unparalleled... always has a positive attitude and is eager to assist or advise when needed.",
+      author: "Dhanush Kumar K",
+      role: "Support Engineer",
+      platform: "Colleague",
+      date: "February 19, 2023"
+    },
+    {
+      text: "Effortlessly makes a customer smile... willingness to help and share his expertise has always helped me and my customers achieve our goals.",
+      author: "Chu Khoy Sheng",
+      role: "Data-Driven Marketer",
+      platform: "Colleague",
+      date: "May 14, 2021"
+    },
+    {
+      text: "One of the best at what he does - apart from being an excellent communicator and a natural problem solver, he has also developed great focus and a tremendous work ethic.",
+      author: "Vivek Vengatesh",
+      role: "Lead Solution Engineer",
+      platform: "Colleague",
+      date: "December 29, 2020"
+    },
+    // Working with David
+    {
+      text: "Assisted my company with the implementation... provided me a level of support and expertise that put me at ease... polite, professional, down to earn and an empathetic person too.",
+      author: "Mark Baker",
+      role: "Client",
+      platform: "Working Relationship",
+      date: "September 17, 2021"
+    },
+    {
+      text: "So helpful and attentive during our sales and onboarding process... prompt responses... multiple live training and help sessions.",
+      author: "Therese Stevens",
+      role: "Working at different companies",
+      platform: "Working Relationship",
+      date: "March 12, 2021"
+    },
+    {
+      text: "Helped guide me through evaluating Freshdesk software. He is very knowledgeable and helpful. I look forward to working with David if we implement Freshdesk.",
+      author: "Summer Richards",
+      role: "Client",
+      platform: "Working Relationship",
+      date: "March 27, 2020"
     }
   ];
 
@@ -123,36 +292,50 @@ const Achievements = () => {
               What Colleagues & Clients Say
             </h3>
             
-            <div className="grid md:grid-cols-3 gap-6">
-              {testimonials.map((testimonial, index) => (
-                <Card 
-                  key={index}
-                  className="group hover:shadow-card transition-all duration-300 hover:scale-105 bg-card border-border shadow-sm"
-                >
-                  <CardContent className="p-6">
-                    <div className="space-y-4">
-                      <div className="text-primary text-2xl">"</div>
-                      
-                      <blockquote className="text-sm text-muted-foreground leading-relaxed italic">
-                        {testimonial.text}
-                      </blockquote>
-                      
-                      <div className="border-t border-border pt-4">
-                        <p className="font-semibold text-foreground text-sm">
-                          {testimonial.author}
-                        </p>
-                        <p className="text-xs text-muted-foreground">
-                          {testimonial.role}
-                        </p>
-                        <Badge variant="secondary" className="mt-2 text-xs">
-                          {testimonial.platform}
-                        </Badge>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
+            <Carousel
+              opts={{
+                align: "start",
+                loop: true,
+              }}
+              className="w-full max-w-5xl mx-auto"
+            >
+              <CarouselContent className="-ml-2 md:-ml-4">
+                {testimonials.map((testimonial, index) => (
+                  <CarouselItem key={index} className="pl-2 md:pl-4 md:basis-1/2 lg:basis-1/3">
+                    <Card className="group hover:shadow-card transition-all duration-300 hover:scale-105 bg-card border-border shadow-sm h-full">
+                      <CardContent className="p-6 flex flex-col h-full">
+                        <div className="space-y-4 flex-1">
+                          <div className="text-primary text-2xl">"</div>
+                          
+                          <blockquote className="text-sm text-muted-foreground leading-relaxed italic flex-1">
+                            {testimonial.text}
+                          </blockquote>
+                          
+                          <div className="border-t border-border pt-4 mt-auto">
+                            <p className="font-semibold text-foreground text-sm">
+                              {testimonial.author}
+                            </p>
+                            <p className="text-xs text-muted-foreground">
+                              {testimonial.role}
+                            </p>
+                            <div className="flex items-center gap-2 mt-2">
+                              <Badge variant="secondary" className="text-xs">
+                                {testimonial.platform}
+                              </Badge>
+                              <span className="text-xs text-muted-foreground">
+                                {testimonial.date}
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious />
+              <CarouselNext />
+            </Carousel>
           </div>
 
           {/* Projects & Volunteering */}
