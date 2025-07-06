@@ -302,7 +302,10 @@ const Achievements = () => {
               <CarouselContent className="-ml-2 md:-ml-4">
                 {testimonials.map((testimonial, index) => (
                   <CarouselItem key={index} className="pl-2 md:pl-4 md:basis-1/2 lg:basis-1/3">
-                    <Card className="group hover:shadow-card transition-all duration-300 hover:scale-105 bg-card border-border shadow-sm h-full">
+                    <Card 
+                      className="group hover:shadow-card transition-all duration-300 hover:scale-105 bg-card border-border shadow-sm h-full cursor-pointer"
+                      onClick={() => window.open(`https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(testimonial.author)}`, '_blank')}
+                    >
                       <CardContent className="p-6 flex flex-col h-full">
                         <div className="space-y-4 flex-1">
                           <div className="text-primary text-2xl">"</div>
@@ -314,7 +317,7 @@ const Achievements = () => {
                           <div className="text-primary text-2xl text-right">"</div>
                           
                           <div className="border-t border-border pt-4 mt-auto">
-                            <p className="font-semibold text-foreground text-sm">
+                            <p className="font-semibold text-foreground text-sm hover:text-primary transition-colors">
                               {testimonial.author}
                             </p>
                             <p className="text-xs text-muted-foreground">
