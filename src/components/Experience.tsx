@@ -121,7 +121,7 @@ const Experience = () => {
                         <Badge 
                           key={idx} 
                           variant="secondary" 
-                          className="bg-accent-light/50 text-accent-foreground hover:bg-accent transition-colors"
+                          className="bg-accent-light text-accent-foreground hover:bg-accent transition-colors"
                         >
                           {skill}
                         </Badge>
