@@ -6,7 +6,7 @@ const Experience = () => {
     {
       company: "Zluri",
       role: "Senior Presales Engineer",
-      period: "Current Role",
+      period: "Previous Role",
       highlights: [
         "Design tailored SaaS management solutions for enterprise clients",
         "Partner directly with customers to influence product development roadmap",
@@ -121,7 +121,7 @@ const Experience = () => {
                         <Badge 
                           key={idx} 
                           variant="secondary" 
-                          className="bg-accent-light text-accent-foreground hover:bg-accent transition-colors"
+                          className="bg-accent-light/50 text-accent-foreground hover:bg-accent transition-colors"
                         >
                           {skill}
                         </Badge>

@@ -306,10 +306,12 @@ const Achievements = () => {
                       <CardContent className="p-6 flex flex-col h-full">
                         <div className="space-y-4 flex-1">
                           <div className="text-primary text-2xl">"</div>
-                          
+                           
                           <blockquote className="text-sm text-muted-foreground leading-relaxed italic flex-1">
                             {testimonial.text}
                           </blockquote>
+                          
+                          <div className="text-primary text-2xl text-right">"</div>
                           
                           <div className="border-t border-border pt-4 mt-auto">
                             <p className="font-semibold text-foreground text-sm">
