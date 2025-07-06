@@ -101,6 +101,14 @@ const Contact = () => {
                     Send Email
                   </Button>
                   <Button 
+                    variant="hero"
+                    size="lg"
+                    onClick={() => window.open("https://davidanand.zohobookings.com/#/4743390000000047052", "_blank")}
+                    className="text-lg px-8 py-3"
+                  >
+                    Schedule a Call
+                  </Button>
+                  <Button 
                     variant="outline"
                     size="lg"
                     onClick={() => window.open("https://www.linkedin.com/in/david-anand-daniel", "_blank")}
