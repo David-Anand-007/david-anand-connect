@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { Mail, Phone, Linkedin } from "lucide-react";
 
 const Contact = () => {
   const contactInfo = [
@@ -7,21 +8,21 @@ const Contact = () => {
       type: "Email",
       value: "davidanand0123@gmail.com",
       href: "mailto:davidanand0123@gmail.com",
-      icon: "📧",
+      icon: Mail,
       description: "Best way to reach me for opportunities"
     },
     {
       type: "Phone", 
       value: "+33-0769297846",
       href: "tel:+330769297846",
-      icon: "📱",
+      icon: Phone,
       description: "Direct line for urgent inquiries"
     },
     {
       type: "LinkedIn",
       value: "david-anand-daniel", 
       href: "https://www.linkedin.com/in/david-anand-daniel",
-      icon: "💼",
+      icon: Linkedin,
       description: "Professional network and updates"
     }
   ];
@@ -54,8 +55,8 @@ const Contact = () => {
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <CardContent className="p-6 text-center">
-                  <div className="text-3xl mb-4 group-hover:scale-110 transition-transform duration-300">
-                    {contact.icon}
+                  <div className="text-primary mb-4 group-hover:scale-110 transition-transform duration-300 flex justify-center">
+                    <contact.icon size={32} />
                   </div>
                   
                   <h3 className="text-lg font-semibold text-foreground mb-2">

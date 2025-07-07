@@ -25,21 +25,22 @@ const Hero = () => {
                   David Anand Daniel
                 </h1>
                 <h2 className="text-xl md:text-2xl lg:text-3xl text-primary-foreground/90 font-light">
-                  Solving Problems, Connecting People, Driving Growth
+                  Senior SaaS Solutions Expert & Technical Consultant
                 </h2>
                 <p className="text-lg md:text-xl text-primary-foreground/80 max-w-2xl">
-                  Senior Sales Engineer & Technical Consultant | Bridging Technology and Human Connection for Meaningful Impact
+                  Driving Revenue Growth & Streamlining Operations through Human-Centric Technology Solutions
                 </p>
               </div>
 
               <div className="space-y-4">
                 <p className="text-primary-foreground/90 text-lg max-w-2xl leading-relaxed">
-                  With 7+ years of experience in SaaS solutions, presales, customer success, and technical consulting, 
-                  I bring a human-centric approach to simplifying complex technology challenges. MBA from Grenoble Ecole de Management.
+                  Results-driven SaaS Solutions Expert with 7+ years in Presales, Technical Consulting & Customer Success, consistently delivering quantifiable business outcomes. Proven ability to translate complex technical concepts into strategic client partnerships, accelerating deal closures and achieving significant ARR growth. MBA from Grenoble Ecole de Management.
                 </p>
-                <p className="text-primary-foreground/80 font-medium">
-                  Available from July 2025
-                </p>
+                <div className="bg-accent/20 backdrop-blur-sm rounded-lg px-4 py-3 border border-accent/30 inline-block">
+                  <p className="text-primary-foreground font-bold text-lg">
+                    🚀 Available from July 2025
+                  </p>
+                </div>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
