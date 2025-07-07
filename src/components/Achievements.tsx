@@ -355,7 +355,7 @@ const Achievements = () => {
                   <div className="text-3xl mb-4">🚀</div>
                   <h4 className="font-semibold text-primary mb-2">Finexia Startup Weekend</h4>
                   <p className="text-sm text-muted-foreground">
-                    Developed prototype achieving 40+ user engagement sessions during 48-hour intensive startup program, contributing to innovative fintech solutions for SME lending
+                    Developed prototype achieving 40+ user engagement sessions during 48-hour intensive startup program, contributing to innovative fintech solutions for SME lending. Developed a market entry strategy that identified a 15% growth opportunity in the fintech sector.
                   </p>
                 </CardContent>
               </Card>
@@ -365,7 +365,7 @@ const Achievements = () => {
                   <div className="text-3xl mb-4">🇫🇷</div>
                   <h4 className="font-semibold text-primary mb-2">Old Monk French Market Entry</h4>
                   <p className="text-sm text-muted-foreground">
-                    Developed comprehensive market entry strategy identifying 15% growth opportunity in French premium spirits market, including competitive analysis and consumer positioning framework
+                    Conducted comprehensive market analysis for premium spirit brand expansion, identifying key distribution channels and competitive positioning strategies for European market penetration. Developed a market entry strategy that identified a 15% growth opportunity in the French market.
                   </p>
                 </CardContent>
               </Card>
@@ -375,7 +375,7 @@ const Achievements = () => {
                   <div className="text-3xl mb-4">👥</div>
                   <h4 className="font-semibold text-primary mb-2">Mentorship Programs</h4>
                   <p className="text-sm text-muted-foreground">
-                    Mentored 8+ junior colleagues across multiple organizations, facilitating average 25% improvement in presales technical proficiency and career advancement
+                    Mentored 8+ junior colleagues and new hires across technical sales, presales engineering, and customer success roles, facilitating an average of 25% improvement in their presales technical proficiency and career development.
                   </p>
                 </CardContent>
               </Card>

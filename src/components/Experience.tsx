@@ -20,12 +20,12 @@ const Experience = () => {
       role: "Senior Technical Consultant",
       period: "Previous Role",
       highlights: [
-        "Pioneered CM.com's India operations as the first technical hire, establishing foundational processes that scaled technical capabilities by 30-50% and enabled successful market entry",
+        "Pioneered CM.com's India operations as the first technical hire, establishing foundational presales and technical support processes that scaled regional capacity by 40% within 12 months and enabled successful market entry",
         "Championed seamless customer onboarding initiatives, reducing time-to-value by 40% and achieving 95%+ customer satisfaction scores",
         "Led strategic market entry analysis including competitor research and feasibility studies, identifying €2M+ market opportunity in the Indian subcontinent",
         "Mentored 8+ new technical hires and established technical excellence standards, contributing to 25% improvement in team productivity",
-        "Secured VBJ Jewellers as the first MSC Pro deal, demonstrating exceptional solution positioning and opening a new market segment worth €500K+ annually",
-        "Successfully repositioned 'unsellable' products like MMC through strategic approach, recovering 60% of previously lost opportunities",
+        "Secured VBJ Jewellers as the first MSC Pro deal by strategically positioning complex communication solutions, opening a new market segment worth €500K+ annually",
+        "Revitalized previously 'unsellable' products like MMC through a strategic repositioning initiative, driving 25%+ increase in adoption and generating significant new revenue within 9 months",
         "Earned customer recognition with mentions on LinkedIn for exceptional service, contributing to 150%+ increase in referral business"
       ],
       skills: ["Market Entry Strategy", "Team Building", "Customer Success", "Mentorship"]
@@ -48,10 +48,10 @@ const Experience = () => {
       role: "Presales & Technical Support Specialist",
       period: "Previous Role",
       highlights: [
-        "Simplified complex IT challenges for 200+ diverse clients across SMB and enterprise segments, maintaining 98%+ resolution rate",
+        "Simplified complex IT challenges for 200+ diverse clients across SMB and enterprise segments, improving system efficiency by 15-20% and reducing resolution times by 10-15%",
         "Conducted comprehensive IT health checks and optimization assessments, identifying average cost savings of 15-20% per client",
         "Created exceptional support experiences leading to outstanding reviews on Gartner, contributing to 4.2+ star rating maintenance",
-        "Successfully de-escalated critical customer situations, converting 25-30% of dissatisfied clients into passionate product advocates",
+        "Successfully de-escalated 150+ critical customer situations, transforming 25-30% of dissatisfied clients into passionate product advocates, directly contributing to Gartner Peer Insights Customers' Choice awards (2018 & 2019)",
         "Contributed to Gartner Peer Insights Customers' Choice awards (2018 & 2019) through consistent excellence in customer experience",
         "Built reputation for turning around challenging customer situations, achieving 90%+ customer satisfaction in escalated cases"
       ],

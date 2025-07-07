@@ -97,24 +97,27 @@ const Contact = () => {
                     variant="accent"
                     size="lg"
                     onClick={() => window.open("mailto:davidanand0123@gmail.com", "_blank")}
-                    className="text-lg px-8 py-3"
+                    className="text-lg px-8 py-4 shadow-prominent"
                   >
+                    <Mail className="mr-2" size={20} />
                     Send Email
                   </Button>
                   <Button 
                     variant="hero"
                     size="lg"
                     onClick={() => window.open("https://davidanand.zohobookings.com/#/4743390000000047052", "_blank")}
-                    className="text-lg px-8 py-3"
+                    className="text-lg px-8 py-4 shadow-prominent"
                   >
+                    <Phone className="mr-2" size={20} />
                     Schedule a Call
                   </Button>
                   <Button 
                     variant="outline"
                     size="lg"
                     onClick={() => window.open("https://www.linkedin.com/in/david-anand-daniel", "_blank")}
-                    className="text-lg px-8 py-3 border-primary/30 text-primary hover:bg-primary hover:text-primary-foreground"
+                    className="text-lg px-8 py-4 border-primary/30 text-primary hover:bg-primary hover:text-primary-foreground shadow-prominent"
                   >
+                    <Linkedin className="mr-2" size={20} />
                     View LinkedIn
                   </Button>
                 </div>

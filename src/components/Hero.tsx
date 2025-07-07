@@ -22,13 +22,13 @@ const Hero = () => {
             <div className="space-y-8 animate-fade-in">
               <div className="space-y-4">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight">
-                  David Anand Daniel
+                  David Anand Daniel: Senior SaaS Solutions Engineer & Technical Consultant
                 </h1>
                 <h2 className="text-xl md:text-2xl lg:text-3xl text-primary-foreground/90 font-light">
-                  Senior SaaS Solutions Expert & Technical Consultant
+                  Driving Revenue Growth & Streamlining Operations through Human-Centric Technology Solutions
                 </h2>
                 <p className="text-lg md:text-xl text-primary-foreground/80 max-w-2xl">
-                  Driving Revenue Growth & Streamlining Operations through Human-Centric Technology Solutions
+                  Results-driven SaaS Solutions Expert with 7+ years in Presales, Technical Consulting & Customer Success
                 </p>
               </div>
 
@@ -48,7 +48,7 @@ const Hero = () => {
                   variant="accent" 
                   size="lg"
                   onClick={() => scrollToSection("contact")}
-                  className="text-lg px-8 py-3"
+                  className="text-lg px-8 py-4 shadow-prominent"
                 >
                   Connect with Me
                 </Button>
@@ -56,7 +56,7 @@ const Hero = () => {
                   variant="outline" 
                   size="lg"
                   onClick={() => scrollToSection("experience")}
-                  className="text-lg px-8 py-3 bg-primary-foreground/10 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+                  className="text-lg px-8 py-4 bg-primary-foreground/10 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary shadow-prominent"
                 >
                   View My Work
                 </Button>
