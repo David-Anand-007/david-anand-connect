@@ -8,10 +8,10 @@ const Experience = () => {
       role: "Senior Presales Engineer",
       period: "Previous Role",
       highlights: [
-        "Designed and implemented tailored SaaS management solutions for 15+ enterprise clients, resulting in an average of 20-25% improved operational efficiency and 15-20% cost savings within 6-12 months",
-        "Partnered directly with customers to influence product development roadmap, contributing to 3+ major feature releases that enhanced client satisfaction by 30%",
-        "Led compelling product demonstrations and technical deep-dives for C-suite executives, achieving 85%+ meeting-to-proposal conversion rate",
-        "Fostered genuine partnerships beyond traditional vendor-client relationships, resulting in 90%+ client retention rate and 40% increase in upsell opportunities"
+        "Addressed fragmented SaaS spend by designing and implementing tailored SaaS management solutions for 15+ enterprise clients, driving 20-25% efficiency gains and 15-20% cost savings within 6-12 months",
+        "Closed feature-fit gaps by collaborating with key enterprise customers to influence 3+ roadmap features, increasing module adoption and client satisfaction by ~30%",
+        "Overcame executive skepticism by leading tailored demos and technical deep-dives for C-suite, achieving an 85%+ meeting-to-proposal conversion rate",
+        "Mitigated churn risk by building strategic partnerships beyond vendor-client relationships, sustaining 90%+ retention and increasing upsell opportunities by ~40%"
       ],
       skills: ["SaaS Management", "Enterprise Solutions", "Product Strategy", "Client Partnership"]
     },
@@ -20,13 +20,13 @@ const Experience = () => {
       role: "Senior Technical Consultant",
       period: "Previous Role",
       highlights: [
-        "Pioneered CM.com's India operations as the first technical hire, establishing foundational presales and technical support processes that scaled regional capacity by 40% within 12 months and enabled successful market entry",
-        "Championed seamless customer onboarding initiatives, reducing time-to-value by 40% and achieving 95%+ customer satisfaction scores",
-        "Led strategic market entry analysis including competitor research and feasibility studies, identifying €2M+ market opportunity in the Indian subcontinent",
-        "Mentored 8+ new technical hires and established technical excellence standards, contributing to 25% improvement in team productivity",
-        "Secured VBJ Jewellers as the first MSC Pro deal by strategically positioning complex communication solutions, opening a new market segment worth €500K+ annually",
-        "Revitalized previously 'unsellable' products like MMC through a strategic repositioning initiative, driving 25%+ increase in adoption and generating significant new revenue within 9 months",
-        "Earned customer recognition with mentions on LinkedIn for exceptional service, contributing to 150%+ increase in referral business"
+        "Launched India operations from a zero baseline by establishing presales and technical support processes, scaling regional capacity by ~40% in 12 months and enabling successful market entry",
+        "Reduced time-to-value by ~40% through streamlined onboarding and proactive success motions, maintaining 95%+ CSAT",
+        "Informed GTM prioritization via competitor research and feasibility studies, identifying €2M+ market opportunity in the Indian subcontinent",
+        "Closed capability gaps by mentoring 8+ new technical hires and codifying excellence standards, improving team productivity by ~25%",
+        "Secured VBJ Jewellers as the first MSC Pro deal by positioning complex communication solutions, opening a new €500K+ annual segment",
+        "Revived previously 'unsellable' MMC via strategic repositioning, driving 25%+ adoption and generating significant new revenue within 9 months",
+        "Elevated credibility with public client recognition on LinkedIn, contributing to 150%+ increase in referral business"
       ],
       skills: ["Market Entry Strategy", "Team Building", "Customer Success", "Mentorship"]
     },
@@ -35,11 +35,11 @@ const Experience = () => {
       role: "Solution Engineer",
       period: "Previous Role",
       highlights: [
-        "Aligned technical sales strategies with evolving customer needs, contributing to 25% increase in solution adoption rates",
-        "Provided expert assistance with customer onboarding and complex problem-solving, reducing escalation rates by 35%",
-        "Recognized as 'Chief Closer 2020' at Freshworks for exceptional deal closure performance, ranking in top 5% of sales engineering team",
-        "Personally influenced $1.14M USD ARR through strategic solution positioning and consultative selling approach",
-        "Achieved 102% of FY2020 sales target through consultative approach, exceeding quota by $120K+ in additional revenue"
+        "Aligned solution strategy to evolving customer needs to remove adoption barriers, lifting solution uptake by ~25%",
+        "Reduced escalation rates by ~35% by leading complex onboarding and problem-solving support",
+        "Recognized as 'Chief Closer 2020' at Freshworks for exceptional deal closure performance (top 5% of sales engineering team)",
+        "Personally influenced $1.14M USD ARR through strategic solution positioning",
+        "Achieved 102% of FY2020 sales target through a consultative approach"
       ],
       skills: ["Technical Sales", "Solution Architecture", "Deal Closure", "Revenue Growth"]
     },
@@ -48,12 +48,12 @@ const Experience = () => {
       role: "Presales & Technical Support Specialist",
       period: "Previous Role",
       highlights: [
-        "Simplified complex IT challenges for 200+ diverse clients across SMB and enterprise segments, improving system efficiency by 15-20% and reducing resolution times by 10-15%",
-        "Conducted comprehensive IT health checks and optimization assessments, identifying average cost savings of 15-20% per client",
-        "Created exceptional support experiences leading to outstanding reviews on Gartner, contributing to 4.2+ star rating maintenance",
-        "Successfully de-escalated 150+ critical customer situations, transforming 25-30% of dissatisfied clients into passionate product advocates, directly contributing to Gartner Peer Insights Customers' Choice awards (2018 & 2019)",
-        "Contributed to Gartner Peer Insights Customers' Choice awards (2018 & 2019) through consistent excellence in customer experience",
-        "Built reputation for turning around challenging customer situations, achieving 90%+ customer satisfaction in escalated cases"
+        "Simplified complex IT challenges for 200+ SMB/enterprise clients to stabilize environments, improving system efficiency by 15-20% and reducing resolution times by 10-15%",
+        "Conducted IT health checks and optimization assessments, identifying average cost savings of 15-20% per client",
+        "Delivered exceptional support experiences that helped maintain a 4.2+ Gartner rating",
+        "De-escalated 150+ critical situations, converting 25-30% dissatisfied clients into advocates and supporting Gartner Peer Insights Customers' Choice (2018 & 2019)",
+        "Built turnaround playbooks for high-stakes cases, achieving 90%+ CSAT in escalations",
+        "Strengthened long-term relationships with proactive follow-ups and root-cause elimination, reducing repeat escalations"
       ],
       skills: ["IT Consulting", "Customer Advocacy", "Technical Support", "Relationship Building"]
     }

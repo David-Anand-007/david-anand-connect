@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -52,13 +53,18 @@ const Navigation = () => {
             ))}
           </div>
 
-          <Button 
-            variant="hero" 
-            size="sm"
-            onClick={() => scrollToSection("contact")}
-          >
-            Let's Connect
-          </Button>
+          <div className="flex items-center gap-3">
+            <Button 
+              variant="hero" 
+              size="sm"
+              onClick={() => scrollToSection("contact")}
+            >
+              Let's Connect
+            </Button>
+            <Button variant="accent" size="sm" asChild>
+              <Link to="/resume" target="_blank" rel="noopener noreferrer">Download Resume</Link>
+            </Button>
+          </div>
         </div>
       </div>
     </nav>

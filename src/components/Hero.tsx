@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 const heroPortrait = "/lovable-uploads/a8d4536c-6d0a-44dd-877d-cb0f9dd9eabb.png";
 
 const Hero = () => {
@@ -36,21 +37,25 @@ const Hero = () => {
                 <p className="text-primary-foreground/90 text-lg max-w-2xl leading-relaxed">
                   Results-driven SaaS Solutions Expert with 7+ years in Presales, Technical Consulting & Customer Success, consistently delivering quantifiable business outcomes. Proven ability to translate complex technical concepts into strategic client partnerships, accelerating deal closures and achieving significant ARR growth. MBA from Grenoble Ecole de Management.
                 </p>
-                <div className="bg-accent/20 backdrop-blur-sm rounded-lg px-4 py-3 border border-accent/30 inline-block">
-                  <p className="text-primary-foreground font-bold text-lg">
+                <button 
+                  onClick={() => scrollToSection("contact")}
+                  className="bg-accent/20 backdrop-blur-sm rounded-lg px-4 py-3 border border-accent/30 inline-block hover-scale"
+                  aria-label="Available from July 2025 — contact me"
+                >
+                  <span className="text-primary-foreground font-bold text-lg">
                     🚀 Available from July 2025
-                  </p>
-                </div>
+                  </span>
+                </button>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+              <div className="flex flex-col sm:flex-row flex-wrap gap-4 pt-4">
                 <Button 
                   variant="accent" 
                   size="lg"
                   onClick={() => scrollToSection("contact")}
                   className="text-lg px-8 py-4 shadow-prominent"
                 >
-                  Connect with Me
+                  Let's Connect
                 </Button>
                 <Button 
                   variant="outline" 
@@ -59,6 +64,12 @@ const Hero = () => {
                   className="text-lg px-8 py-4 bg-primary-foreground/10 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary shadow-prominent"
                 >
                   View My Work
+                </Button>
+                <Button variant="hero" size="lg" asChild className="text-lg px-8 py-4 shadow-prominent">
+                  <a href="https://davidanand.zohobookings.com/#/4743390000000047052" target="_blank" rel="noopener noreferrer">Schedule a Call</a>
+                </Button>
+                <Button variant="secondary" size="lg" asChild className="text-lg px-8 py-4">
+                  <Link to="/resume" target="_blank" rel="noopener noreferrer">Download Resume (PDF)</Link>
                 </Button>
               </div>
             </div>
