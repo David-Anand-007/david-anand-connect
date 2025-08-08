@@ -62,7 +62,7 @@ const Navigation = () => {
               Let's Connect
             </Button>
             <Button variant="accent" size="sm" asChild>
-              <Link to="/resume" target="_blank" rel="noopener noreferrer">Download ATS Resume</Link>
+              <Link to="/resume?print=1" target="_blank" rel="noopener noreferrer">Download ATS Resume</Link>
             </Button>
           </div>
         </div>

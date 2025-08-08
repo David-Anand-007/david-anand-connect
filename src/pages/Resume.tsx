@@ -1,10 +1,19 @@
 import { Button } from "@/components/ui/button";
 import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const Resume = () => {
+  const location = useLocation();
   useEffect(() => {
     document.title = "Resume | David Anand Daniel - Senior SaaS Solutions Engineer";
   }, []);
+
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    if (params.get("print") === "1") {
+      setTimeout(() => window.print(), 300);
+    }
+  }, [location.search]);
 
   const onPrint = () => window.print();
 

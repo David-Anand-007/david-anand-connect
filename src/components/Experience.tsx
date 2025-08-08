@@ -1,12 +1,13 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 const Experience = () => {
   const experiences = [
     {
       company: "Zluri",
       role: "Senior Presales Engineer",
-      period: "Previous Role",
+      period: "Aug 2023 - Jul 2024 · 1 yr",
       highlights: [
         "Addressed fragmented SaaS spend by designing and implementing tailored SaaS management solutions for 15+ enterprise clients, driving 20-25% efficiency gains and 15-20% cost savings within 6-12 months",
         "Closed feature-fit gaps by collaborating with key enterprise customers to influence 3+ roadmap features, increasing module adoption and client satisfaction by ~30%",
@@ -18,7 +19,7 @@ const Experience = () => {
     {
       company: "CM.com",
       role: "Senior Technical Consultant",
-      period: "Previous Role",
+      period: "Jan 2021 - Aug 2023 · 2 yrs 8 mos",
       highlights: [
         "Launched India operations from a zero baseline by establishing presales and technical support processes, scaling regional capacity by ~40% in 12 months and enabling successful market entry",
         "Reduced time-to-value by ~40% through streamlined onboarding and proactive success motions, maintaining 95%+ CSAT",
@@ -33,7 +34,7 @@ const Experience = () => {
     {
       company: "Freshworks",
       role: "Solution Engineer",
-      period: "Previous Role",
+      period: "Aug 2019 - Dec 2020 · 1 yr 5 mos",
       highlights: [
         "Aligned solution strategy to evolving customer needs to remove adoption barriers, lifting solution uptake by ~25%",
         "Reduced escalation rates by ~35% by leading complex onboarding and problem-solving support",
@@ -46,7 +47,7 @@ const Experience = () => {
     {
       company: "Zoho Corporation",
       role: "Presales & Technical Support Specialist",
-      period: "Previous Role",
+      period: "Jun 2017 - Jul 2019 · 2 yrs 2 mos",
       highlights: [
         "Simplified complex IT challenges for 200+ SMB/enterprise clients to stabilize environments, improving system efficiency by 15-20% and reducing resolution times by 10-15%",
         "Conducted IT health checks and optimization assessments, identifying average cost savings of 15-20% per client",
@@ -131,6 +132,20 @@ const Experience = () => {
                 </CardContent>
               </Card>
             ))}
+          </div>
+
+          {/* Section CTA */}
+          <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Button variant="accent" size="lg" asChild>
+              <a href="https://davidanand.zohobookings.com/#/4743390000000047052" target="_blank" rel="noopener noreferrer">
+                Schedule a Call
+              </a>
+            </Button>
+            <Button variant="hero" size="lg" asChild>
+              <Link to="/resume?print=1" target="_blank" rel="noopener noreferrer">
+                Download ATS Resume
+              </Link>
+            </Button>
           </div>
         </div>
       </div>

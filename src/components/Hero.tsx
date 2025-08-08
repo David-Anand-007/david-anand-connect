@@ -61,7 +61,7 @@ const Hero = () => {
                   variant="outline" 
                   size="lg"
                   onClick={() => scrollToSection("experience")}
-                  className="text-lg px-8 py-4 bg-primary-foreground/10 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary shadow-prominent"
+                  className="text-lg px-8 py-4 bg-primary-foreground/20 border-primary-foreground/60 text-primary-foreground hover:bg-primary-foreground hover:text-primary shadow-prominent"
                 >
                   View My Work
                 </Button>
@@ -69,7 +69,7 @@ const Hero = () => {
                   <a href="https://davidanand.zohobookings.com/#/4743390000000047052" target="_blank" rel="noopener noreferrer">Schedule a Call</a>
                 </Button>
                 <Button variant="secondary" size="lg" asChild className="text-lg px-8 py-4">
-                  <Link to="/resume" target="_blank" rel="noopener noreferrer">Download Resume (PDF)</Link>
+                  <Link to="/resume?print=1" target="_blank" rel="noopener noreferrer">Download Resume (PDF)</Link>
                 </Button>
               </div>
             </div>
@@ -80,8 +80,13 @@ const Hero = () => {
                 <div className="w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden shadow-glow border-4 border-primary-foreground/20">
                   <img 
                     src={heroPortrait} 
-                    alt="David Anand Daniel - Professional Portrait"
+                    alt="David Anand Daniel professional portrait"
                     className="w-full h-full object-cover"
+                    width="384"
+                    height="384"
+                    loading="eager"
+                    decoding="async"
+                    fetchPriority="high"
                   />
                 </div>
                 {/* Decorative elements */}
