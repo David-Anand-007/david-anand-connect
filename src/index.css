@@ -109,6 +109,10 @@ All colors MUST be HSL.
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-background text-foreground font-sans leading-relaxed;
     font-feature-settings: "liga" 1, "kern" 1;
@@ -138,4 +142,12 @@ All colors MUST be HSL.
   a:focus-visible {
     @apply ring-2 ring-primary ring-offset-2 ring-offset-background;
   }
+}
+
+/* Print styles for ATS-friendly resume */
+@media print {
+  @page { size: A4; margin: 12mm; }
+  body { background: #ffffff !important; color: #000000 !important; }
+  header, footer, nav, .shadow-elegant, .shadow-card, .shadow-glow { box-shadow: none !important; }
+  a { color: #000 !important; text-decoration: none !important; }
 }

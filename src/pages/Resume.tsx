@@ -65,7 +65,7 @@ const Resume = () => {
           <article className="mt-4">
             <header>
               <h3 className="font-semibold">Zluri — Senior Presales Engineer</h3>
-              <p className="text-xs text-muted-foreground">Previous Role</p>
+              <p className="text-xs text-muted-foreground">Aug 2023 - Jul 2024 · 1 yr</p>
             </header>
             <ul className="mt-2 space-y-1 text-sm list-disc pl-5">
               <li>Addressed fragmented SaaS spend by designing and implementing tailored management solutions for 15+ enterprises, driving 20–25% efficiency gains and 15–20% cost savings within 6–12 months.</li>
@@ -78,7 +78,7 @@ const Resume = () => {
           <article className="mt-4">
             <header>
               <h3 className="font-semibold">CM.com — Senior Technical Consultant</h3>
-              <p className="text-xs text-muted-foreground">Previous Role</p>
+              <p className="text-xs text-muted-foreground">Jan 2021 - Aug 2023 · 2 yrs 8 mos</p>
             </header>
             <ul className="mt-2 space-y-1 text-sm list-disc pl-5">
               <li>Launched India operations from zero baseline by establishing presales and technical support processes, scaling regional capacity by ~40% in 12 months and enabling market entry.</li>
@@ -94,7 +94,7 @@ const Resume = () => {
           <article className="mt-4">
             <header>
               <h3 className="font-semibold">Freshworks — Solution Engineer</h3>
-              <p className="text-xs text-muted-foreground">Previous Role</p>
+              <p className="text-xs text-muted-foreground">Aug 2019 - Dec 2020 · 1 yr 5 mos</p>
             </header>
             <ul className="mt-2 space-y-1 text-sm list-disc pl-5">
               <li>Aligned solution strategy to evolving customer needs to remove adoption barriers, lifting solution uptake by ~25%.</li>
@@ -108,7 +108,7 @@ const Resume = () => {
           <article className="mt-4">
             <header>
               <h3 className="font-semibold">Zoho Corporation (ManageEngine) — Presales & Technical Support Specialist</h3>
-              <p className="text-xs text-muted-foreground">Previous Role</p>
+              <p className="text-xs text-muted-foreground">Jun 2017 - Jul 2019 · 2 yrs 2 mos</p>
             </header>
             <ul className="mt-2 space-y-1 text-sm list-disc pl-5">
               <li>Simplified complex IT challenges for 200+ SMB/enterprise clients, improving system efficiency by 15–20% and reducing resolution time by 10–15%.</li>
