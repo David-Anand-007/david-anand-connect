@@ -28,14 +28,11 @@ const Hero = () => {
                 <h2 className="text-xl md:text-2xl lg:text-3xl text-primary-foreground/90 font-light">
                   Driving Revenue Growth & Streamlining Operations through Human-Centric Technology Solutions
                 </h2>
-                <p className="text-lg md:text-xl text-primary-foreground/80 max-w-2xl">
-                  Results-driven SaaS Solutions Expert with 7+ years in Presales, Technical Consulting & Customer Success
-                </p>
               </div>
 
               <div className="space-y-4">
                 <p className="text-primary-foreground/90 text-lg max-w-2xl leading-relaxed">
-                  Results-driven SaaS Solutions Expert with 7+ years in Presales, Technical Consulting & Customer Success, consistently delivering quantifiable business outcomes. Proven ability to translate complex technical concepts into strategic client partnerships, accelerating deal closures and achieving significant ARR growth. MBA from Grenoble Ecole de Management.
+                  7+ years turning complex tech into clear business wins—accelerating deals, ARR, and adoption across presales, consulting, and CS. MBA, Grenoble Ecole de Management.
                 </p>
                 <button 
                   onClick={() => scrollToSection("contact")}
@@ -48,7 +45,7 @@ const Hero = () => {
                 </button>
               </div>
 
-              <div className="flex flex-col sm:flex-row flex-wrap gap-4 pt-4">
+              <div className="flex flex-col sm:flex-row flex-wrap gap-4 pt-4 pb-12 md:pb-16">
                 <Button 
                   variant="accent" 
                   size="lg"
@@ -97,6 +94,9 @@ const Hero = () => {
           </div>
         </div>
       </div>
+
+      {/* Bottom gradient to prevent bleed into next section */}
+      <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-b from-transparent to-background"></div>
 
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">

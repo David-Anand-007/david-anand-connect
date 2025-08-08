@@ -32,12 +32,12 @@ const Navigation = () => {
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${
       isScrolled 
-        ? "bg-background shadow-card border-b border-border" 
+        ? "bg-background/80 supports-[backdrop-filter]:bg-background/60 backdrop-blur-md shadow-card border-b border-border" 
         : "bg-transparent"
     }`}>
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
-          <div className="text-xl font-bold text-primary">
+          <div className={`text-xl font-bold ${isScrolled ? "text-primary" : "text-primary-foreground"}`}>
             David Anand Daniel
           </div>
           
@@ -46,7 +46,7 @@ const Navigation = () => {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-foreground hover:text-primary transition-colors duration-300 font-medium"
+                className={`${isScrolled ? "text-foreground hover:text-primary" : "text-primary-foreground/90 hover:text-primary-foreground"} transition-colors duration-300 font-medium`}
               >
                 {item.label}
               </button>

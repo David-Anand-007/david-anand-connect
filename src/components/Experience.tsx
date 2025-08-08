@@ -9,10 +9,10 @@ const Experience = () => {
       role: "Senior Presales Engineer",
       period: "Aug 2023 - Jul 2024 · 1 yr",
       highlights: [
-        "Addressed fragmented SaaS spend by designing and implementing tailored SaaS management solutions for 15+ enterprise clients, driving 20-25% efficiency gains and 15-20% cost savings within 6-12 months",
-        "Closed feature-fit gaps by collaborating with key enterprise customers to influence 3+ roadmap features, increasing module adoption and client satisfaction by ~30%",
-        "Overcame executive skepticism by leading tailored demos and technical deep-dives for C-suite, achieving an 85%+ meeting-to-proposal conversion rate",
-        "Mitigated churn risk by building strategic partnerships beyond vendor-client relationships, sustaining 90%+ retention and increasing upsell opportunities by ~40%"
+        "Designed enterprise SaaS management for 15+ clients; delivered 20-25% efficiency and 15-20% cost savings within 6-12 months",
+        "Partnered with key enterprises to shape 3+ roadmap features; lifted module adoption and client satisfaction ~30%",
+        "Led tailored C-suite demos and deep-dives; achieved 85%+ meeting-to-proposal conversion",
+        "Built strategic partnerships; sustained 90%+ retention and grew upsell pipeline ~40%"
       ],
       skills: ["SaaS Management", "Enterprise Solutions", "Product Strategy", "Client Partnership"]
     },
@@ -21,13 +21,13 @@ const Experience = () => {
       role: "Senior Technical Consultant",
       period: "Jan 2021 - Aug 2023 · 2 yrs 8 mos",
       highlights: [
-        "Launched India operations from a zero baseline by establishing presales and technical support processes, scaling regional capacity by ~40% in 12 months and enabling successful market entry",
-        "Reduced time-to-value by ~40% through streamlined onboarding and proactive success motions, maintaining 95%+ CSAT",
-        "Informed GTM prioritization via competitor research and feasibility studies, identifying €2M+ market opportunity in the Indian subcontinent",
-        "Closed capability gaps by mentoring 8+ new technical hires and codifying excellence standards, improving team productivity by ~25%",
-        "Secured VBJ Jewellers as the first MSC Pro deal by positioning complex communication solutions, opening a new €500K+ annual segment",
-        "Revived previously 'unsellable' MMC via strategic repositioning, driving 25%+ adoption and generating significant new revenue within 9 months",
-        "Elevated credibility with public client recognition on LinkedIn, contributing to 150%+ increase in referral business"
+        "Launched India operations; built presales/support playbooks; scaled regional capacity ~40% in 12 months, enabling market entry",
+        "Cut time-to-value ~40% via streamlined onboarding and proactive success motions; 95%+ CSAT",
+        "Drove GTM via competitive and feasibility analysis; identified €2M+ opportunity",
+        "Mentored 8+ hires and codified excellence standards; improved team productivity ~25%",
+        "Closed first MSC Pro with VBJ Jewellers; opened €500K+ annual segment",
+        "Repositioned MMC; increased adoption 25%+ and generated new revenue within 9 months",
+        "Earned public client recognition; boosted referrals 150%+"
       ],
       skills: ["Market Entry Strategy", "Team Building", "Customer Success", "Mentorship"]
     },
@@ -36,11 +36,10 @@ const Experience = () => {
       role: "Solution Engineer",
       period: "Aug 2019 - Dec 2020 · 1 yr 5 mos",
       highlights: [
-        "Aligned solution strategy to evolving customer needs to remove adoption barriers, lifting solution uptake by ~25%",
-        "Reduced escalation rates by ~35% by leading complex onboarding and problem-solving support",
-        "Recognized as 'Chief Closer 2020' at Freshworks for exceptional deal closure performance (top 5% of sales engineering team)",
-        "Personally influenced $1.14M USD ARR through strategic solution positioning",
-        "Achieved 102% of FY2020 sales target through a consultative approach"
+        "Aligned solutions to evolving needs; lifted adoption ~25%",
+        "Cut escalations ~35% by leading complex onboarding and problem-solving",
+        "Awarded 'Chief Closer 2020' (top 5%); influenced $1.14M ARR",
+        "Achieved 102% FY2020 target via consultative selling"
       ],
       skills: ["Technical Sales", "Solution Architecture", "Deal Closure", "Revenue Growth"]
     },
@@ -49,12 +48,11 @@ const Experience = () => {
       role: "Presales & Technical Support Specialist",
       period: "Jun 2017 - Jul 2019 · 2 yrs 2 mos",
       highlights: [
-        "Simplified complex IT challenges for 200+ SMB/enterprise clients to stabilize environments, improving system efficiency by 15-20% and reducing resolution times by 10-15%",
-        "Conducted IT health checks and optimization assessments, identifying average cost savings of 15-20% per client",
-        "Delivered exceptional support experiences that helped maintain a 4.2+ Gartner rating",
-        "De-escalated 150+ critical situations, converting 25-30% dissatisfied clients into advocates and supporting Gartner Peer Insights Customers' Choice (2018 & 2019)",
-        "Built turnaround playbooks for high-stakes cases, achieving 90%+ CSAT in escalations",
-        "Strengthened long-term relationships with proactive follow-ups and root-cause elimination, reducing repeat escalations"
+        "Simplified complex IT for 200+ SMB/enterprise clients; improved efficiency 15-20% and cut resolution times 10-15%",
+        "Conducted health checks and optimization; identified 15-20% average cost savings per client",
+        "Delivered support that sustained 4.2+ Gartner rating; contributed to Customers' Choice (2018 & 2019)",
+        "De-escalated 150+ critical cases; converted 25-30% detractors into advocates; 90%+ CSAT in escalations",
+        "Built turnaround playbooks and eliminated root causes; reduced repeat escalations"
       ],
       skills: ["IT Consulting", "Customer Advocacy", "Technical Support", "Relationship Building"]
     }
