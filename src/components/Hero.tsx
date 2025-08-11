@@ -15,6 +15,7 @@ const Hero = () => {
       {/* Background pattern */}
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4xIj48Y2lyY2xlIGN4PSIzMCIgY3k9IjMwIiByPSIxLjUiLz48L2c+PC9nPjwvc3ZnPg==')] opacity-20"></div>
       <div className="pointer-events-none absolute top-0 left-0 right-0 h-24 bg-gradient-to-b from-background/60 to-transparent"></div>
+      
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -30,10 +31,15 @@ const Hero = () => {
                 </h2>
               </div>
 
-              <div className="space-y-4">
+              <div className="space-y-5">
                 <p className="text-primary-foreground/90 text-lg max-w-2xl leading-relaxed">
-                  7+ years turning complex tech into clear business wins—accelerating deals, ARR, and adoption across presales, consulting, and CS. MBA, Grenoble Ecole de Management.
+                  Over 7 years translating complex SaaS into clear business outcomes. I partner with Sales, Product, and CS to shorten cycles, lift ARR, and drive adoption. My approach blends technical depth with compelling storytelling, live prototyping, and executive alignment—so stakeholders see value fast. MBA, Grenoble Ecole de Management.
                 </p>
+                <ul className="list-disc pl-5 text-primary-foreground/90 space-y-1 max-w-2xl">
+                  <li>Presales, Consulting, and CS leadership across EMEA/APAC</li>
+                  <li>0→1 solution design, narrative demos, and pilot acceleration</li>
+                  <li>Platforms: CPaaS, CX, ITSM, RevOps, and automation stacks</li>
+                </ul>
                 <button 
                   onClick={() => scrollToSection("contact")}
                   className="bg-accent/20 backdrop-blur-sm rounded-lg px-4 py-3 border border-accent/30 inline-block hover-scale"
